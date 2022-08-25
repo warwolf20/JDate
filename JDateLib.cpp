@@ -113,7 +113,7 @@ int Date::JYear()
 
 	return  sYear;
 }
-int Date::JDay()
+int Date::JMonth()
 {
 	int tt = 0, sD = 0;
 	int sYear = 0, sMonth = 0, sDay = 0;
@@ -160,7 +160,7 @@ int Date::JDay()
 
 	return  sMonth;
 }
-int Date::JMonth()
+int Date::JDay()
 {
 	int tt = 0, sD = 0;
 	int sYear = 0, sMonth = 0, sDay = 0;
